@@ -1,0 +1,1 @@
+-define(URL, "xx.com").
