@@ -2,6 +2,7 @@
 	[
 		 'src/*'
 		,'src/*/*'
+		,'scr/*/*/*'
 	],
 	[
 		 debug_info
