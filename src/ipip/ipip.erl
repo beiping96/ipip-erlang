@@ -19,7 +19,10 @@ init() ->
 	init(?DAT).
 
 init(FileDAT) ->
-	{ok, IoDevice} = file:open(FileDAT, [{encoding}]),
+	{ok, IoDevice} = file:open(FileDAT, [read ,{encoding, utf8}]),
+	init(IoDevice, 0),
+	complie()
+		file:read_line(IoDevice)
 
 get(S) ->
 	S.
