@@ -5,6 +5,7 @@ Generate `./priv/17monipdb.dat` To `./src/data_ip.erl`
 
 ## Beforehand
 Use Erlang vision is [OTP 18.3](http://www.erlang.org/downloads/18.3)
+
 Use Rebar vision is [rebar3](http://www.rebar3.org/)
 
 ## How To Use It
@@ -22,3 +23,5 @@ Step 4: Run Erlang Shell In `ipip.beam` Dir
 Step 5: Run `ipip:init().` To Generate `data_ipip.erl`
 
 Step 6: Compile `data_ipip.erl`
+
+## How Fast
