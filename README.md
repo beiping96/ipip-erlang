@@ -9,7 +9,7 @@ Use Erlang vision is [OTP 18.3](http://www.erlang.org/downloads/18.3)
 Use Rebar vision is [rebar3](http://www.rebar3.org/)
 
 ## How To Use It
-Step 1 : Download And Compile
+Step 1: Download And Compile
 ```
 git clone https://github.com/beiping96/ipip-erlang.git
 rebar3 compile
