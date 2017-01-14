@@ -5,7 +5,7 @@
 %%% @doc
 %%%  	ipip.net ip解析
 %%%
-%%%		ipip数据 './17monipdb/17monipdb.dat'
+%%%		ipip数据 './priv/17monipdb.dat'
 %%% 	
 %%% @end
 %%%----------------------------------------------------------------------
@@ -17,7 +17,7 @@
 -export([init/0]).
 -export([get/1, get/4]).
 
--define(DAT, "./17monipdb/17monipdb.dat").
+-define(DAT, "./priv/17monipdb.dat").
 
 %%----------------------------------------------------------------------
 %% @doc 	通过17monipdb.dat生成data_ip.erl
@@ -27,7 +27,7 @@
 init() ->
 	init(?DAT).
 init(FileDAT) ->
-	{ok, IoDevice} = file:open("../src/data_ipip.erl", [write, {encoding, utf8}]),
+	{ok, IoDevice} = file:open("./src/data_ipip.erl", [write, {encoding, utf8}]),
 	{ok, FileBin} = file:read_file(FileDAT),
 	{ok, #file_info{atime = Atime, mtime = Mtime, ctime = Ctime}} = file:read_file_info(FileDAT),
 	io:put_chars(IoDevice, "%%%----------------------------------------------------------------------\n"),
