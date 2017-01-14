@@ -14,11 +14,11 @@ Step 1 : Download And Compile
 git clone https://github.com/beiping96/ipip-erlang.git
 rebar3 compile
 ```
-Step 2: Get `17monipdb.bat` From ipip.net
+Step 2: Get `17monipdb.bat` From http://ipip.net
 
 Step 3: Move `17monipdb.bat` To `./priv/17monipdb.bat`
 
-Step 4: Run Erlang Shell In `ipip.beam` Dir
+Step 4: Run Erlang Shell In `ipip.beam` Directory
 
 Step 5: Run `ipip:init().` To Generate `data_ipip.erl`
 
