@@ -1,9 +1,4 @@
 # ipip-erlang
-English | [简体中文](README_CN.md)
-
 http://ipip.net IP location
-## Desc
-## Use
-## Test
-## Fast
 
+Generate ./priv/17monipdb.dat To ./src/data_ip.erl
