@@ -14,9 +14,9 @@ Step 1: Download And Compile
 git clone https://github.com/beiping96/ipip-erlang.git
 rebar3 compile
 ```
-Step 2: Get `17monipdb.bat` From http://ipip.net
+Step 2: Get `17monipdb.dat` From http://ipip.net
 
-Step 3: Move `17monipdb.bat` To `./priv/17monipdb.bat`
+Step 3: Move `17monipdb.dat` To `./priv/17monipdb.dat`
 
 Step 4: Run Erlang Shell In `ipip.beam` Directory
 
