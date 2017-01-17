@@ -4,9 +4,9 @@ http://ipip.net IP location
 Generate `./priv/17monipdb.dat` To `./src/data_ip.erl`
 
 ## Beforehand
-Use Erlang vision is [OTP 18.3](http://www.erlang.org/downloads/18.3)
+Use Erlang version is [OTP 18.3](http://www.erlang.org/downloads/18.3)
 
-Use Rebar vision is [rebar3](http://www.rebar3.org/)
+Use Rebar version is [rebar3](http://www.rebar3.org/)
 
 ## How To Use It
 Step 1: Download And Compile
