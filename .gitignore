@@ -3,9 +3,7 @@
 *.plt
 *.swp
 *.swo
+*.dump
+*.log
 .erlang.cookie
-ebin
-log
-erl_crash.dump
-logs
 .idea
