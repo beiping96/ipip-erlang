@@ -82,4 +82,4 @@ get(A, B, C, D) ->
 
 %% @hidden EUnit
 get_test() ->
-	?MODULE:get("255.255.255.255") =:= ?MODULE:get(255, 255, 255, 255).
+	?assert(?MODULE:get("255.255.255.255") =:= ?MODULE:get(255, 255, 255, 255)).
