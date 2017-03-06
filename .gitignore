@@ -1,5 +1,4 @@
 *.o
-*.beam
 *.plt
 *.swp
 *.swo
