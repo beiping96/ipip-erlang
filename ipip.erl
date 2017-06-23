@@ -3,7 +3,7 @@
 %%% @doc
 %%% 	ipip.net ip解析
 %%% 
-%%% 	ipip数据 '../priv/17monipdb.dat'
+%%% 	ipip数据 './priv/17monipdb.dat'
 -module(ipip).
 
 -include_lib("kernel/include/inet.hrl").
@@ -15,7 +15,7 @@
 
 -export_type([ipv4/0]).
 
--define(DAT, "../priv/17monipdb.dat").
+-define(DAT, "./priv/17monipdb.dat").
 
 -type ipv4() :: 0..255.
 
@@ -26,7 +26,7 @@ init() ->
 
 -spec init(string()) -> any().
 init(FileDAT) ->
-	{ok, IoDevice} = file:open("../src/data_ipip.erl", [write, {encoding, utf8}]),
+	{ok, IoDevice} = file:open("./data_ipip.erl", [write, {encoding, utf8}]),
 	{ok, FileBin} = file:read_file(FileDAT),
 	{ok, #file_info{atime = Atime, mtime = Mtime, ctime = Ctime}} = file:read_file_info(FileDAT),
 	io:put_chars(IoDevice, "%%% @author AutoCreate <beiping96@gmail.com>\n"),

@@ -1,8 +1,10 @@
+.eunit
+deps
 *.o
+*.beam
 *.plt
-*.swp
-*.swo
-*.dump
-*.log
-.erlang.cookie
-.idea
+*.beam
+erl_crash.dump
+rel/example_project
+.concrete/DEV_MODE
+.rebar
