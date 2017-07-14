@@ -1,7 +1,7 @@
 # ipip-erlang
-http://ipip.net IP location
+`ipip.erl`模块会将位于`./priv/`目录下的`17monipdb.dat`转化成`./data_ip.erl`模块。
 
-Convert `./priv/17monipdb.dat` To `./data_ip.erl`
+`17monipdb.bat`来自于http://ipip.net
 
 Use Erlang version is [OTP 18.3](http://www.erlang.org/downloads/18.3)
 
