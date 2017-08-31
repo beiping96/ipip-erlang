@@ -3,5 +3,5 @@
 
 `17monipdb.dat`来自于https://www.ipip.net
 
-Use Erlang version is [OTP 18.3](http://www.erlang.org/downloads/18.3)
+Erlang version [OTP 18.3](http://www.erlang.org/downloads/18.3)
 
